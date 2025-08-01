@@ -1,0 +1,23 @@
+# Ignore all contents of these directories
+/data/
+/apache/logs/
+/tmp/
+/sessions/
+/www/*
+
+# Except index.php inside /www
+!/www/index.php
+!/www/phpMyAdmin/
+/www/phpMyAdmin/tmp/
+
+# Ignore specific config and ini files
+mysql/my.ini
+php/php.ini
+config/httpd.conf
+config/my.ini
+
+# Ignore all log files
+*.log
+config/httpd.conf
+config/my.ini
+redis/dump.rdb
